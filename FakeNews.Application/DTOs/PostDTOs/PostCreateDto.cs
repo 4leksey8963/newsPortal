@@ -8,4 +8,4 @@ public record PostCreateDto(
     PostStatus PostStatus,
     Link Resource,
     ICollection<Link> Links,
-    PostTags PostTags);
+    ICollection<Tag> PostTags);
