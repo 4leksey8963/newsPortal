@@ -9,17 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ac139c-88d2-4552-8cec-625390f79dfb" name="Changes" comment="Add .idea to .gitignore">
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/Link.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/Post.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/PostPreview.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/PostStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/PostTags.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.Domain/Models/Tag.cs" afterDir="false" />
+    <list default="true" id="e1ac139c-88d2-4552-8cec-625390f79dfb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeNews/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeNews/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeNews.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FakeNews.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\qayum\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\qayum\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\qayum\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\qayum\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\qayum\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\qayum\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.FakeNews.API: IIS Express">
     <configuration name="FakeNews.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FakeNews.API/FakeNews.API.csproj" />
@@ -153,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722949393820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit workspace.xml">
+      <option name="closed" value="true" />
+      <created>1722968094375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722968094375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +175,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add .idea to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .idea to .gitignore" />
+    <MESSAGE value="Commit workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit workspace.xml" />
   </component>
 </project>
