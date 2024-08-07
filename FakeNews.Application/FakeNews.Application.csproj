@@ -8,10 +8,13 @@
 
     <ItemGroup>
       <Folder Include="Common\" />
-      <Folder Include="DTOs\" />
       <Folder Include="Interfaces\" />
       <Folder Include="Services\" />
       <Folder Include="UseCases\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FakeNews.Domain\FakeNews.Domain.csproj" />
     </ItemGroup>
 
 </Project>
