@@ -1,0 +1,32 @@
+name: Cleanup Merged Feature Branches
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Fetch all branches
+        run: |
+          git fetch --all
+
+      - name: Delete merged branches
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for branch in $(git branch --merged develop | grep -E '^\s*feature/' | grep -v 'develop'); do
+            git branch -d ${branch#* }
+            git push origin --delete ${branch#* }
+          done
