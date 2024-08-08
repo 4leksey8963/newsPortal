@@ -1,8 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.API", "FakeNews.API\FakeNews.API.csproj", "{DDD02767-943F-4C9F-9E4E-3A92ED7FE352}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeNews.API", "FakeNews.API\FakeNews.API.csproj", "{DDD02767-943F-4C9F-9E4E-3A92ED7FE352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.Domain", "FakeNews.Domain\FakeNews.Domain.csproj", "{84998AE6-5EEB-49BB-92A2-8DAA79B0DA9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeNews.Domain", "FakeNews.Domain\FakeNews.Domain.csproj", "{84998AE6-5EEB-49BB-92A2-8DAA79B0DA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.Application", "FakeNews.Application\FakeNews.Application.csproj", "{51D18929-988D-40CA-BAC7-0F3639AA9490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.Persistence", "FakeNews.Persistence\FakeNews.Persistence.csproj", "{27692B8E-D476-4155-B36E-E850B5B5FF9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,19 @@ Global
 		{84998AE6-5EEB-49BB-92A2-8DAA79B0DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84998AE6-5EEB-49BB-92A2-8DAA79B0DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84998AE6-5EEB-49BB-92A2-8DAA79B0DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D18929-988D-40CA-BAC7-0F3639AA9490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D18929-988D-40CA-BAC7-0F3639AA9490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D18929-988D-40CA-BAC7-0F3639AA9490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D18929-988D-40CA-BAC7-0F3639AA9490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27692B8E-D476-4155-B36E-E850B5B5FF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27692B8E-D476-4155-B36E-E850B5B5FF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27692B8E-D476-4155-B36E-E850B5B5FF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27692B8E-D476-4155-B36E-E850B5B5FF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FAD4188-99DC-4B01-A2A9-08755C7F193B}
 	EndGlobalSection
 EndGlobal
