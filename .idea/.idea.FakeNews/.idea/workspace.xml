@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1ac139c-88d2-4552-8cec-625390f79dfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FakeNews.API/Controllers/PostController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.API/Controllers/PostPreviewController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.API/Controllers/TagController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeNews.API/Mocks/MockNewsStorage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeNews/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeNews/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeNews.API/FakeNews.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeNews.API/FakeNews.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeNews.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeNews.API/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
     ".NET Launch Settings Profile.FakeNews.API: https.executor": "Run",
     "HTTP Request.FakeNews.API | #1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/FN-10-Realize-mock-API-for-testes",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.FakeNews.API | #1" />
         <item itemvalue="HTTP Request.FakeNews.API | #1" />
       </list>
     </recent_temporary>
