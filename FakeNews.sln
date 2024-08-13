@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.Application", "FakeNews.Application\FakeNews.Application.csproj", "{51D18929-988D-40CA-BAC7-0F3639AA9490}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeNews.Persistence", "FakeNews.Persistence\FakeNews.Persistence.csproj", "{27692B8E-D476-4155-B36E-E850B5B5FF9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51D18929-988D-40CA-BAC7-0F3639AA9490} = {51D18929-988D-40CA-BAC7-0F3639AA9490}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

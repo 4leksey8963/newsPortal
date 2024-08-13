@@ -1,5 +1,8 @@
 using FakeNews.API.Mocks;
 using FakeNews.API.NSwag;
+using FakeNews.Persistence.Context;
+using FakeNews.Persistence.Extension;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.AddNSwag();
 builder.Services.AddControllers();
+
+builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection(nameof(MongoDBSettings)));
+
 
 // Mocks
 builder.Services.AddSingleton<MockNewsStorage>();
