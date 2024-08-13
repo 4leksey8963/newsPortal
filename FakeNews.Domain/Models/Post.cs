@@ -7,13 +7,12 @@ public class Post : BaseEntity
     public string Title { get; init; } = Empty;
     public string Text { get; init; } = Empty;
     public PostStatus PostStatus { get; set; } = PostStatus.Hidden;
-    public Link Resource { get; init; } = null!;
-    public ICollection<Link> Links { get; protected set; } = new List<Link>();
-    public PostTags PostTags { get; init; } = null!;
-    
+    public Link Image { get; protected set; } = null!;
+    public ICollection<Tag> Tags { get; protected set; } = null!;
+    public Source Source { get; init; } = null!;
     private Post() {}
     
-    public static Post Create(string title, string text, PostStatus postStatus, Link resource, ICollection<Link> links, PostTags postTags)
+    public static Post Create(string title, string text, Link image, ICollection<Tag> tags, PostStatus postStatus, Source source)
     {
         return new Post()
         {
@@ -22,9 +21,9 @@ public class Post : BaseEntity
             Title = title,
             Text = text,
             PostStatus = postStatus,
-            Resource = resource,
-            Links = links,
-            PostTags = postTags
+            Image = image,
+            Source = source,
+            Tags = tags
         };
     }
 }
