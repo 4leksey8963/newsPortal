@@ -3,18 +3,18 @@ namespace FakeNews.Domain.Models;
 public class PostPreview : BaseEntity
 {
     public Guid PostId { get; init; }
-    public PostTags PostTags { get; init; } = null!;
+    public Link Image { get; protected set; } = null!;
 
     private PostPreview() {}
 
-    public static PostPreview Create(Guid postId, PostTags postTags)
+    public static PostPreview Create(Guid postId, Link image)
     {
         return new PostPreview()
         {
             Id = Guid.NewGuid(),
             CreateDate = DateTime.Today,
             PostId = postId,
-            PostTags = postTags,
+            Image = image
         };
     }
 }
